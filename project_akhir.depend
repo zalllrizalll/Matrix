@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1670773358 source:d:\matriks & ruang vektor\project akhir\project_akhir\main.cpp
+	<iostream>
+	<conio.h>
+	<math.h>
+
