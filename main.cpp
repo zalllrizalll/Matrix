@@ -305,7 +305,7 @@ int tampil_menu()
 
 int main()
 {
-    int matriksA[10][10], matriksB[10][10],hasil[10][10];
+    int matrix[10][10];
     string menu;
     int pil{}, baris{}, kolom{}, n;
     int barisPertama{}, barisKedua{}, kolomPertama{}, kolomKedua{};
@@ -377,7 +377,7 @@ int main()
                     for(int j = 0; j < n; j++)
                     {
                         cout << "Matrix[" << i << "][" << j << "] : ";
-                        cin >> matriksA[i][j];
+                        cin >> matrix[i][j];
                     }
                 }
                 cout<<endl;
@@ -386,12 +386,12 @@ int main()
                 {
                     for(int j = 0; j < n; j++)
                     {
-                        cout << matriksA[i][j] << "  ";
+                        cout << matrix[i][j] << "  ";
                     }
                     cout << endl;
                 }
                 cout << endl;
-                cout << "Determinant dari Matriks tersebut yaitu " << determinant(matriksA, n);
+                cout << "Determinant dari Matriks tersebut yaitu " << determinant(matrix, n);
                 getch();
                 break;
             }
